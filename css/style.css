@@ -17,6 +17,15 @@ body {
     max-width: 100%;
     overflow: hidden;
     overflow: scroll;
+    margin: 0;
+    padding: 0;
+}
+
+.batata{
+    background-image: url("../img/veneza.jpg");
+    width: 100px;
+    height: 100px;
+    background-size: cover;
 }
 
 
@@ -24,12 +33,12 @@ body {
 
 .navbar {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
-    background-image: linear-gradient(rgb(0,0,0), rgba(0,0,0,0.5));
+    background-image: linear-gradient(rgb(230, 107, 7), rgba(223, 125, 46, 0.959));
     top: 0;
     position: sticky;
-    padding: 16px 32px; 
+    padding: 16px; 
     z-index: 10;   
 }
 
@@ -41,12 +50,12 @@ body {
 
 .nav-links li a {
     text-decoration: none;
-    color: #ccc;
+    color: #fffcfc;
 
 }
 
 .nav-links li a:hover {
-    color: #e28101;
+    color: #f5a976;
     
 }
 
@@ -57,5 +66,19 @@ body {
 
 
 .botao-cadastro {
+    background-color:#780fda ;
+    padding: 10px 15px;
+    border-radius: 40px;
+}
 
+.botao-cadastro:hover {
+    background-color: #6b0dc2;
+}
+
+/* local para inerir o cpf */
+.bota-cpf {
+    background-color: #ccc;
+    color: #1f1f1f;
+    width: 500px;
+    height: 300px;
 }
