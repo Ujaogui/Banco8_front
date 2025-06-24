@@ -21,11 +21,17 @@ body {
     padding: 0;
 }
 
-.batata{
+.batata {
     background-image: url("../img/veneza.jpg");
-    width: 100px;
-    height: 100px;
+    max-width: 100%;
+    width: 1600px;
+    height: 900px;
     background-size: cover;
+    position: relative;
+    z-index: 999;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
 }
 
 
@@ -38,8 +44,8 @@ body {
     background-image: linear-gradient(rgb(230, 107, 7), rgba(223, 125, 46, 0.959));
     top: 0;
     position: sticky;
-    padding: 16px; 
-    z-index: 10;   
+    padding: 16px;
+    z-index: 10;
 }
 
 .nav-links {
@@ -55,8 +61,8 @@ body {
 }
 
 .nav-links li a:hover {
-    color: #f5a976;
-    
+    color: #780fda;
+
 }
 
 .button-search {
@@ -66,7 +72,7 @@ body {
 
 
 .botao-cadastro {
-    background-color:#780fda ;
+    background-color: #780fda;
     padding: 10px 15px;
     border-radius: 40px;
 }
@@ -77,8 +83,15 @@ body {
 
 /* local para inerir o cpf */
 .bota-cpf {
-    background-color: #ccc;
+    background-color: rgba(255, 255, 255, 0.8);
     color: #1f1f1f;
-    width: 500px;
-    height: 300px;
+    width: 250px;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    z-index: 1;
+    align-content: center;
+    justify-content: center;
+    grid-row: 2;
 }
