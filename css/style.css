@@ -11,13 +11,13 @@ body {
 
 /* background image */
 
-.veneza {
+/* .veneza {
     max-width: 100%;
     overflow: hidden;
     overflow: scroll;
     margin: 0;
     padding: 0;
-}
+} */
 
 .topo {
     background-image: url("../img/veneza.jpg");
@@ -26,7 +26,7 @@ body {
     height: 700px;
     background-size: cover;
     position: relative;
-    z-index: 999;
+    /* z-index: 999; */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
@@ -98,4 +98,5 @@ body {
 
 .meio1 {
     padding: 64px 120px;
+    height: 800px;
 }
